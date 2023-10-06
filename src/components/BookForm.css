@@ -1,0 +1,47 @@
+.modal {
+  display: flex;
+  background-color: #fff;
+  width: 40%;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+  padding: 0 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 2px 2px #888888;
+  border: 1px solid grey;
+  border-radius: 10px;
+  z-index:1000;
+}
+.formContainer {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+.inputContainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+.btnContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    gap: 10px;
+}
+@media (max-width: 480px) {
+    .modal {
+        width: 70%;
+    }
+    .btnContainer {
+        gap: 5px;
+        width: 80%;
+        margin: 10px auto;
+    }
+}

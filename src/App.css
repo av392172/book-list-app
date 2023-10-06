@@ -1,0 +1,17 @@
+.appContainer {
+  display: flex;
+  background-color: #d3d3d380;
+  flex: 1;
+  flex-direction: column;
+  min-height: 100vh;
+  max-width: 85%;
+  margin: auto;
+  gap: 10px;
+}
+
+@media (max-width: 480px) {
+  .appContainer {
+    max-width: 100%;
+    gap: 5px;
+  }
+}

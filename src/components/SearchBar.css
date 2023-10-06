@@ -1,0 +1,35 @@
+.searchBarContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.searchInputContainer {
+    width: 35%;
+}
+.searchInput {
+    width: 100%;
+}
+.btnContainer {
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width: 480px) {
+    .searchBarContainer {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+    .searchInputContainer {
+        width: 70%;
+    }
+    .btnContainer {
+        width: 70%;
+    }
+    .btn {
+        margin: 0 15px;
+    }
+}
